@@ -5,6 +5,6 @@ all:
 		$(CC) -Wall -o $(name) $(name).c
 
 cli:
-		rm -f $(name).o $(name
+		rm -f $(name).o $(name)
 
 clean: cli
